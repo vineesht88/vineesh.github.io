@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.front-view-div{width: 100%;
+				float: left;
+				position: relative !important;
+	    padding: 77px;
+	
+				}
+
+.back-view-div{width: 100%;
+				float: left;
+				position: relative}
+
+
+.body-description {
+pointer-events: none;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    background: #f3624e;
+    padding: 13px 14px;
+    z-index: 5;
+    line-height: 0;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 3px;
+
+    display: none;
+    font-weight: 100;
+}
+.body-description.active {
+	display: block;
+}
+.body-description:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 100%;
+	width: 0;
+	height: 0;
+	margin-left: -10px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #f3624e;
+}
+.cls-1, .cls-6 {
+	fill: #ecc7af;
+}
+.cls-2 {
+	fill: #414042;
+}
+.cls-3 {
+	fill: none;
+}
+.cls-4 {
+	fill: #d8a98f;
+}
+.cls-5 {
+	fill: #ba8a72;
+}
+.cls-6 {
+	font-size: 14.75px;
+	font-family: OpenSans, Open Sans;
+}
+
+
+.front-svg-div{height:-webkit-fill-available;}
+
+
+.svg-main-content{width:45%;
+				margin: 0 auto;
+				padding: 0;}
+
+
+.head-style{    font-size: 24px;
+    font-weight: bold;}

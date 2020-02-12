@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'DubaiRegular';
+	src: url('../fonts/DubaiRegular.eot') format('embedded-opentype'), url('../fonts/DubaiRegular.woff') format('woff'), url('../fonts/DubaiRegular.ttf') format('truetype'), url('../fonts/DubaiRegular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body, div {
+	font-family: 'DubaiRegular';
+}
+@font-face {
+	font-family: 'DubaiMedium';
+	src: url('../fonts/DubaiMedium.eot') format('embedded-opentype'), url('../fonts/DubaiMedium.woff') format('woff'), url('../fonts/DubaiMedium.ttf') format('truetype'), url('../fonts/DubaiMedium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DubaiLight';
+	src: url('../fonts/DubaiLight.eot') format('embedded-opentype'), url('../fonts/DubaiLight.woff') format('woff'), url('../fonts/DubaiLight.ttf') format('truetype'), url('../fonts/DubaiLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
